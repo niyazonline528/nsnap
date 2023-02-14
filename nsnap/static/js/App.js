@@ -9,18 +9,6 @@ function App(props) {
   console.log("value", value)
 
   //change button color
-  function BtnChangeColor() {
-
-    setTimeout(() => {
-      setBtnStyle.current = { backgroundColor: '#3b82f6', color: "white" }
-    }, 400);
-    setTimeout(() => {
-      setBtnStyle.current = {}
-    }, 800);
-    setTimeout(() => {
-      BtnChangeColor()
-    }, 1200);
-  }
   // BtnChangeColor()
 
   // set link and data get
